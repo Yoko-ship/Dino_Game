@@ -59,7 +59,7 @@ function Dino() {
 
   useEffect(() => {
     document.addEventListener("keydown", function(event){
-      if(["Space","ArrowUp"].includes(event.code)){ // spesific keyboards
+      if(["Space","ArrowUp"].includes(event.code)){
         jump()
       }
     });
